@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    font-family: '微软雅黑';
+    background-color: #F7F8FA;
+}
+/*清除浮动*/
+.clear-float:after{
+    display: block;
+    content: '';
+    height: 0;
+    clear: both;
+}
+/*已过期状态的颜色*/
+.overdue{
+    color: #ABAFB7;!important;
+}
+/*head*/
+.head{
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #fff;
+}
+/*foot*/
+.foot{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid green;
+}
+.foot .foot-link{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+.foot .foot-link img{
+    width: 100%;
+    height: 100%;
+}
+.foot .home-icon,
+.foot .mine-icon{
+    display:block;
+    height: 18px;
+    width: 18px;
+}
+/*foot 商品详情*/
+.foot .buyNow-btn{
+    margin-top: 6px;
+    width: 240px;
+    height: 38px;
+    background-color: #FD3D73;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+/*确认订单*/
+.foot .confirmBuy-btn{
+    margin-top: 6px;
+    width: 340px;
+    height: 38px;
+    background-color: #FD3D73;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+/*支付成功结果页*/
+.foot .searchCourse-btn,
+.foot .toIndex-btn{
+    margin-top: 6px;
+    height: 38px;
+    width: 170px;
+}
+.foot .searchCourse-btn{
+   background-color: #FD3D73;
+   color: #fff;
+    border: none;
+}
+.foot .toIndex-btn{
+    color: #FD3D73;
+    background-color: #fff;
+    border: 1px dashed #000;
+}

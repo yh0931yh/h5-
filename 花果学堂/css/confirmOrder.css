@@ -1,0 +1,64 @@
+
+/*orderDetail 订单详情*/
+.orderDetail{
+    height: 100px;
+    padding: 10px;
+    background-color: #fff;
+}
+.orderDetail .course-wrap{
+    margin-top: 15px;
+    height: 50px;
+}
+.orderDetail .course-wrap .course-pic{
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+.orderDetail .course-wrap .course-pic img{
+    height: 100%;
+    width: 100%;
+}
+.orderDetail .course-wrap .course-name{
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    font-size: 14px;
+    line-height: 22px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.orderDetail .course-wrap .course-price{
+    float: right;
+}
+.orderDetail  .course-wrap .course-price .price-icon,
+.orderDetail  .course-wrap .course-price .price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FD3D73;
+    line-height: 50px;
+}
+/*用户信息输入区域*/
+.customerDetail{
+    margin-top: 10px;
+    padding: 10px 0 10px 10px;
+    height: 180px;
+}
+.customerDetail .customer-info{
+    margin-bottom: 8px;
+    height: 50px;
+    border-bottom:1px solid lightgray ;
+}
+.customerDetail .customer-info input{
+    height:50px;
+    width: 80%;
+    border: none;
+}
+/*foot*/
+.foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

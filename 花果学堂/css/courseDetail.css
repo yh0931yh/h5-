@@ -1,0 +1,119 @@
+
+/*课程信息*/
+.course-info{
+    background: #fff;
+}
+.course-info .course-detail{
+    height: 106px;
+    background: url("../imgs/coruseDetail-c.png")no-repeat top left;
+    background-size: 100%;
+}
+.course-info .course-detail .details{
+    padding: 20px 10px 10px;
+}
+.course-info .course-detail .course-pic{
+    float: left;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+.course-info .course-detail .course-pic img{
+    width: 100%;
+    height: 100%;
+}
+.course-info .course-detail .course-name{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*码号信息*/
+.course-info .course-code{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px 0;
+}
+.course-info .course-code .bar-code{
+    margin-top: 10px;
+    height: 78px;
+    width: 254px;
+}
+.course-info .course-code .qr-code{
+   margin-top: 10px;
+    height: 144px;
+    width: 144px;
+}
+.course-info .course-code .bar-code img,
+.course-info .course-code .qr-code img{
+    width: 100%;
+    height: 100%;
+}
+.course-info .course-code .caption{
+    margin-top: 10px;
+    line-height: 26px;
+}
+.course-info .course-code .sub-caption{
+    font-size: 12px;
+    color: red;
+    line-height: 26px;
+}
+/*订单信息*/
+.order-info{
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    font-size: 13px;
+    line-height: 26px;
+}
+.order-info .order-totalPrice{
+ font-size: 14px;
+    font-weight: bold;
+}
+.order-info .order-totalPrice .order-price{
+    float: right;
+    font-size: 18px;
+    color:#FD3D73;
+}
+.order-info .item-info .txt{
+    float: left;
+    width: 80px;
+}
+/*商家信息*/
+.seller-info{
+    margin-top: 10px;
+    padding: 10px;
+    height: 88px;
+    background: #fff;
+}
+.seller-info .tel-info{
+line-height: 40px;
+}
+.seller-info .tel-info .txt,
+.seller-info .tel-info .tel{
+    font-size: 13px;
+    color: #9C9C9C;
+}
+.seller-info .tel-info .txt{
+    display: inline-block;
+    width: 80px;
+}
+.seller-info .tel-info .call-icon{
+    float: right;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../imgs/call-img.png") no-repeat;
+    background-size: 100%;
+}
+/*购买须知*/
+.buyNeedKnow{
+    line-height: 26px;
+    margin-top: 10px;
+    height: 96px;
+    padding: 10px;
+    background: #fff;
+}
+.buyNeedKnow .sub-caption{
+    font-size: 13px;
+    color: red;
+}

@@ -1,0 +1,84 @@
+
+/*我的课程，订单*/
+.customer{
+    position: relative;
+    height: 242px;
+}
+.customer .bg{
+   height: 182px;
+    padding-top: 30px;
+    /*background: url("../imgs/Pic@2x.png") no-repeat 100% 100%;*/
+    background-image: url("../imgs/Pic@2x.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.customer .customer-img{
+ float: left;
+    margin: 0 20px;
+}
+.customer .bg img {
+   width: 50px;
+    height: 50px;
+}
+.customer .bg .customer-name{
+    line-height: 50px;
+    display: inline-block;
+    color: #fff;
+}
+.customer .customer-course{
+    position: absolute;
+    top:100px;
+    left: 50%;
+    margin-left: -170px;
+    background: #fff;
+    width: 340px;
+    height: 142px;
+    border-radius: 3px;
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0 0 1px gray;
+}
+.customer .customer-course .customer-link{
+    margin-top: 44px;
+    display: inline-block;
+    text-align: center;
+}
+.customer .customer-course .customer-link img{
+    width: 30px;
+    height: 30px;
+}
+.customer .customer-course .customer-link p{
+    color: #000;
+}
+/*关于我们区域*/
+.us{
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.us .aboutUs,
+.us .contactUs{
+    display: block;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+.us .aboutUs .aboutUs-icon,
+.us .contactUs .contactUs-icon{
+
+    display: inline-block;
+    margin: 0 10px 0 0;
+    height: 24px;
+    width: 24px;
+
+}
+.us .aboutUs .aboutUs-icon img,
+.us .contactUs .contactUs-icon img{
+   height: 100%;
+    width: 100%;
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

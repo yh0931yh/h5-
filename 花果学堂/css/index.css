@@ -1,0 +1,98 @@
+
+
+/*banner*/
+.banner{
+    margin:8px 0 0 0;
+    height: 360px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/*content*/
+.content{
+    margin-top: 8px;
+    padding: 0 20px;
+}
+.content .caption .sort-link{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+    margin: 10px;
+}
+.content .caption  .sort-link-active{
+    font-size: 22px;
+    position: relative;
+}
+.content .caption  .sort-link-active:after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 18px;
+    height: 2px;
+    background-color: #FD3D73;
+    left:50%;
+    margin-left: -9px;
+}
+.content .course-list .course-wrap{
+    margin-top: 10px;
+   height: 238px;
+    background-color: #fff;
+}
+.content .course-list .course-wrap .course-pic{
+    height: 128px;
+    width: 100%;
+}
+.content .course-list .course-wrap .course-pic img{
+    width: 100%;
+    height: 100%;
+}
+.content  .course-wrap .course-name,
+.content  .course-wrap .course-tags,
+.content  .course-wrap .course-price{
+    padding: 0 10px;
+}
+.content .course-list .course-wrap .course-name{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.content .course-list .course-wrap .course-tags{
+    margin-top: 5px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #444444;
+}
+.content .course-list .course-wrap .course-tags .tag{
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #999999;
+}
+.content .course-list .course-wrap .course-price{
+    margin-top: 5px;
+}
+.content .course-list .course-wrap .course-price .price-icon,
+.content .course-list .course-wrap .course-price .price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FD3D73;
+}
+.content .course-list .course-wrap .course-price .orign-txt,
+.content .course-list .course-wrap .course-price .orign-price{
+    font-size: 12px;
+    color: #444444;
+}
+.content .course-list .course-wrap .course-price .buy-btn{
+    float: right;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    background-color:#FD3D73;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+}

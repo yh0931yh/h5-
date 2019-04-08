@@ -1,0 +1,86 @@
+/*订单类型*/
+.content .caption{
+    display: flex;
+    justify-content:space-around;
+}
+.content .caption .sort-link{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000;
+    margin: 10px;
+}
+.content .caption  .sort-link-active{
+    position: relative;
+    color: #FD3D73;
+}
+.content .caption  .sort-link-active:after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 18px;
+    height: 2px;
+    background-color: #FD3D73;
+    left:50%;
+    margin-left: -9px;
+}
+/*订单列表*/
+.content .order-content .order-list{}
+.content .order-content .order-list .item{
+    margin-top: 10px;
+    height: 160px;
+    background: #fff;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+}
+.content .order-content .item .orderNum{
+    line-height: 30px;
+    font-size: 14px;
+    color: #ABAFB7;
+}
+.content .order-content .item .order-status{
+    float: right;
+    color: red;
+}
+.content .order-content .item .overdue{
+    color: #ABAFB7;!important;
+}
+.content .order-content .item .succ{
+    display: none;
+}
+.content .order-content .item .course-detail{
+    margin-top: 20px;
+}
+.item .course-detail .course-pic{
+    float: left;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+.item .course-detail .course-pic img{
+    width: 100%;
+    height: 100%;
+}
+.item .course-detail .course-name{
+    font-size: 16px;
+    line-height: 20px;
+}
+.item .course-price{
+    margin-top: 20px;
+}
+.item .course-price {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FD3D73;
+}
+.item .course-price .check-btn{
+    float: right;
+    width: 54px;
+    height: 26px;
+    border-radius: 13px;
+    color: #FD3D73;
+    background: #fff;
+    border: 1px solid #FD3D73;
+}

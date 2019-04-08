@@ -1,0 +1,49 @@
+/*order-status 随着状态值改变文本值,timeTxt 提交时间（未支付，已过期），支付时间（已完成）,footer（未支付订单有底部按钮）*/
+.head{
+    border-bottom: 2px solid #F7F8FA ;
+}
+/*课程信息*/
+.course-detail{
+    height: 106px;
+    padding: 20px 10px 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.course-detail .course-pic{
+    float: left;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+.course-detail .course-pic img{
+    width: 100%;
+    height: 100%;
+}
+.course-detail .course-name{
+    font-size: 16px;
+    line-height: 20px;
+}
+.course-detail .order-status{
+    float: right;
+    color: red;
+}
+/*订单信息*/
+.order-info{
+    margin-top: 10px;
+    padding: 20px 10px;
+    background: #fff;
+    font-size: 13px;
+    line-height: 26px;
+}
+.order-info .item-info .txt{
+    float: left;
+    width: 80px;
+}
+/*底部去支付按钮*/
+/*foot*/
+.foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.hide{display: none;}
