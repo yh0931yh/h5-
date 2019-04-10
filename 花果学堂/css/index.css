@@ -36,6 +36,15 @@
     left:50%;
     margin-left: -9px;
 }
+.corse-link{
+    display: block;
+}
+.item{
+    display: none;
+}
+.item-active{
+    display: block;
+}
 .content .course-list .course-wrap{
     margin-top: 10px;
    height: 238px;
